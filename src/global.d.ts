@@ -7,6 +7,24 @@ declare type EventFunc<T> = (event: T) => void;
 
 declare module "react-drag-drop-container";
 
+// declare module "styled-components" {
+//   export interface DefaultTheme {
+//     panel: {
+//       slot: string;
+//       bg: string;
+//     };
+//     body: {
+//       bgColor: string;
+//       decor: {
+//         left: string;
+//         right: string;
+//       };
+//       items: string[];
+//     };
+//     itemsDecor?: IThemeBodyDecorItem[];
+//   }
+// }
+
 declare interface IGameTheme extends DefaultTheme {
   panel: {
     slot: string;

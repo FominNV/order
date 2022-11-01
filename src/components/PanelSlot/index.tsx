@@ -11,7 +11,7 @@ import {
 import { IPanelSlotProps } from "./types";
 
 const PanelSlot: FC<IPanelSlotProps> = ({ fullfield, value }) => {
-  const theme = useTheme();
+  const theme = useTheme() as IGameTheme;
 
   return (
     <DropTarget targetKey={`order_${value}`}>

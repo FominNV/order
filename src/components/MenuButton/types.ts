@@ -1,4 +1,4 @@
-import { GameMode } from "components/Menu/types";
+import { GameMode } from "components/Game/types";
 import { Dispatch, SetStateAction } from "react";
 
 export interface IMenuButtonProps {

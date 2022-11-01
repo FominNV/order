@@ -9,7 +9,7 @@ import { dataBodyItems } from "./data";
 const Body: FC<IBodyProps> = ({
   showBody, dataBody, dataPanel, dropItem,
 }) => {
-  const theme = useTheme();
+  const theme = useTheme() as IGameTheme;
 
   const bodyItems = useMemo<ReactNode>(
     () => dataBody.map((elem, i) => (

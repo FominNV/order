@@ -5,7 +5,7 @@ import { ImageBack, PanelStyled } from "./styled";
 import { IPanelProps } from "./types";
 
 const Panel: FC<IPanelProps> = ({ data }) => {
-  const theme = useTheme();
+  const theme = useTheme() as IGameTheme;
 
   const panelSlots = useMemo<ReactNode>(
     () => data.map((elem, i) => (
